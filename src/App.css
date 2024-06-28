@@ -1,0 +1,26 @@
+.supernav{
+  background: rgb(235, 235, 235);
+  display: flex;
+  color: slategray;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  font-size: xx-large;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:lightblue;
+  height: 5rem;
+}
+.nav>div{
+  margin: 0px 2rem;
+  display: flex;
+  align-items: center;
+  gap:1rem;
+}
+.nav>div>h1{
+  padding-right: 2rem;
+}
