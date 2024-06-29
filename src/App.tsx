@@ -2,6 +2,8 @@
 import { BsBag } from 'react-icons/bs'
 import './App.css'
 import { HiShoppingBag } from 'react-icons/hi'
+import { MdAccountCircle } from 'react-icons/md'
+import Home from './pages/homePage/Home'
 
 function App() {
 
@@ -12,7 +14,7 @@ function App() {
    </div>
    <div className='nav'>
     <div>
-    <h1>PLAsHOE</h1>
+    <h1>PLASHOE</h1>
     <p>MEN</p>
     <p>WOMEN</p>
     <p>COLLECTION</p>
@@ -23,8 +25,12 @@ function App() {
       <p>OURSTORY</p>
       <p>CONTACT</p>
       <HiShoppingBag className='icon'/>
+      <MdAccountCircle className='icon'/>
     </div>
 
+   </div>
+   <div className='components'>
+   <Home/>
    </div>
     </div>
   )

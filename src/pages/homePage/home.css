@@ -1,0 +1,238 @@
+.Theme{
+    background-image: url('https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-store-hero-image-bg.jpg');
+    color: white;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left:5rem ;
+    padding-bottom: 5rem;
+    gap: 0;
+}
+.Theme>h1{
+    font-size: 10lvh;
+}
+.Theme>p{
+    font-size: x-large;
+}
+.Theme>div{
+    display: flex;
+    gap: 2rem;
+}
+.Theme>div>button{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+}
+    
+
+#themebutton:hover{
+    background-color:rgb(43, 43, 43);
+    color: white;
+}
+.logos{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logos>h6{
+    font-size: large;
+    font-weight: lighter;
+}
+.secondTheme{
+display: flex;
+padding: 5rem 1rem;
+gap: 5rem;
+
+}
+.secondTheme>div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+.secondTheme>div>span{
+    color: orange;
+    font-size: medium;
+    font-weight: bold;
+}
+.secondTheme>div>h1{
+    font-size: 1.2cm;
+    color: rgb(44, 44, 44);
+}
+.secondTheme>div>p{
+    width: 30vw;
+}
+.secondTheme>div>button{
+    width: fit-content;
+    border: none;
+    border-bottom: 0.2rem solid orange;
+    font-weight: bold;
+}
+.secondTheme>div>button:hover{
+border-bottom: 0.2rem solid black;
+}
+.thirdTheme{
+   display: flex;
+   background-color: rgb(231, 234, 236);
+   flex-direction: column;
+   padding:1rem 5rem;
+   
+}
+.thirdThemeheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    padding:2rem  ;
+}
+
+.thirdThemebody{
+    display: flex;
+    gap: 2rem;
+}
+.thirdThemebody>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.thirdThemebody>div>div>span{
+    color: orange;
+}
+.thirdThemebodyrighttext{
+    text-align: right;
+  }
+  .forthTheme{
+    margin: 3rem 0;
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    color: white;
+}
+.forthThemeMen{
+    height: 74vh;
+    width: 50vw;
+    background-image: url("https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-store-shop-men-image-thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.forthThemeWomen{
+    height: 74vh;
+    width: 50vw;
+    background-image: url("https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-store-shop-women-image-tumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.forthTheme>div>p{
+    font-size: xx-large;
+}
+.forthTheme>div>button{
+    color: white;
+    background: transparent;
+    padding: 1rem;
+    border-width: 2px;
+    border-color: white;
+}
+.fifthTheme{
+    display: flex; 
+    gap: 3rem;
+    padding: 5rem;
+    height: 25rem; 
+    background-color: rgb(241, 241, 241);
+}
+.fifthTheme>div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 3;
+    font-size: larger;
+}
+.fifthTheme>img{
+    flex: 2;
+    border-radius: 50%;
+}
+.fifthThemelogos{
+    display: flex;
+    gap: 2rem;
+}
+.sixthTheme{
+    background-image: url("https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-store-cta-image-bg.jpg");
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.sixthTheme>div{
+    display: flex;
+    gap: 2rem;
+}
+
+.sixthThemebtn:hover{
+background-color: rgb(78, 77, 77);
+color: white;
+}
+.sixthThemebtn{
+    padding: 1rem;
+}
+
+.sixthThmecover{
+    display: flex;
+    flex-direction: column;
+}
+.sixthThemlastbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footermain{
+    display: flex;
+}
+
+.footercard{
+    flex: 1;
+}
+
+.footercard>span{
+font-size: large;
+margin-right: 1cm;
+}
+
+.footerIcons{
+    display: flex;
+    gap: 2rem;
+}
+.foioterfirst{
+    padding-bottom: 5rem;
+}
+
+.footerlast{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(210, 214, 218);
+    padding: 2rem 1rem;
+}

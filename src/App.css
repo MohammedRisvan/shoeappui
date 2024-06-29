@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background:lightblue;
+  background:#ffff;
   height: 5rem;
 }
 .nav>div{
@@ -23,4 +23,7 @@
 }
 .nav>div>h1{
   padding-right: 2rem;
+}
+.components{
+  padding: 0 3rem;
 }
