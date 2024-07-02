@@ -1,6 +1,7 @@
 import "./footer.css";
-import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaFacebook, FaLock, FaTruck, FaTwitter, FaYoutube } from "react-icons/fa"
 import { FiInstagram } from "react-icons/fi"
+import { GiCycle } from "react-icons/gi";
 
 const Footer=()=>{
     return(        <div className="footer">
@@ -50,3 +51,21 @@ const Footer=()=>{
 };
 
 export default Footer;
+ 
+export const SpctioalFooter=()=>{
+    return( <div className="sixthThmecover">
+    <div className="sixthTheme">
+        <h1>Better for people & the Planet</h1>
+        <p>Ut eget at et aliquam sit quis nisl, pharetra et ac pharetra est dictum in vulptate</p>
+        <div>
+            <button className="sixthThemebtn">SHOP MEN</button>
+            <button className="sixthThemebtn">SHOP WOMEN</button>
+        </div>
+    </div>
+    <div className="sixthThemlastbar">
+        <h2><FaLock /> Secure Payment</h2>
+        <h2><FaTruck />Express Shipping</h2>
+        <h2><GiCycle />Free Return</h2>
+    </div>
+    </div>)
+}

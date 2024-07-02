@@ -1,6 +1,6 @@
 
 import Home from './pages/homePage/Home'
-import Footer from './pages/navbar/Footer'
+import Footer, { SpctioalFooter } from './pages/footer/Footer'
 import Navbar from './pages/navbar/Navbar'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
    <div className='components'>
    <Home/>
    </div>
+   <SpctioalFooter/>
    <Footer/>
     </div>
   )

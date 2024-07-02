@@ -94,21 +94,7 @@ const Home=()=>{
                 <img src="https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-store-recycled-circle-iamge.jpg" alt="" />
         </div>
      
-        <div className="sixthThmecover">
-        <div className="sixthTheme">
-            <h1>Better for people & the Planet</h1>
-            <p>Ut eget at et aliquam sit quis nisl, pharetra et ac pharetra est dictum in vulptate</p>
-            <div>
-                <button className="sixthThemebtn">SHOP MEN</button>
-                <button className="sixthThemebtn">SHOP WOMEN</button>
-            </div>
-        </div>
-        <div className="sixthThemlastbar">
-            <h2><FaLock /> Secure Payment</h2>
-            <h2><FaTruck />Express Shipping</h2>
-            <h2><GiCycle />Free Return</h2>
-        </div>
-        </div>
+       
 
         </div>
     )

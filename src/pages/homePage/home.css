@@ -168,39 +168,3 @@ border-bottom: 0.2rem solid black;
     display: flex;
     gap: 2rem;
 }
-.sixthTheme{
-    background-image: url("https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-store-cta-image-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    height: 70vh;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    font-size: xx-large;
-    font-weight: lighter;
-}
-.sixthTheme>div{
-    display: flex;
-    gap: 2rem;
-}
-
-.sixthThemebtn:hover{
-background-color: rgb(78, 77, 77);
-color: white;
-}
-.sixthThemebtn{
-    padding: 1rem;
-}
-
-.sixthThmecover{
-    display: flex;
-    flex-direction: column;
-}
-.sixthThemlastbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1.5rem 0;
-}
