@@ -32,35 +32,8 @@
     color: slategray;
     font-size: large;
 }
-.cards{
+.card{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-}
-.detailcard{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.imagediv{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-.imagebutton{
-    color: transparent;
-font-size: x-large;
-border:none;
-padding: 0.1rem;
-}
-.imagebutton:hover{
-    color: white;
-background-color: black;
-}
-.hoverimage{
-    width: 100%;
-    width: 27rem;
-    overflow: hidden;
-
 }

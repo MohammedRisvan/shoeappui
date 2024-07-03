@@ -1,15 +1,14 @@
 import { SiWindows } from "react-icons/si";
-import "./men.css";
+import "./women.css";
 import { FaRegStar, FaThList } from "react-icons/fa";
 import { BsList } from "react-icons/bs";
 import { IoCloseOutline } from "react-icons/io5";
-import { useState } from "react";
 
-const MenPage=()=>{
+const WomenPage=()=>{
     const arr=[1,2,3,4,5]
 return(
 <div className="MP">
-<h1>Men</h1>
+<h1>Women</h1>
 <div className="MP2c">
     <div>
     <button className="MP2cfbtn">{true?<BsList />:<IoCloseOutline />}FILTER SHOES</button>
@@ -28,17 +27,14 @@ return(
         <FaThList />
     </div>
 </div>
-<div className="cards">
+<div className="card">
     {arr.map((item,key)=>{
-    const [hover,setHover]=useState<boolean>(false)
-        return(<div className=" detailcard" onMouseEnter={()=>{setHover(true)}} onMouseLeave={()=>{setHover(false)}}>
-            <div className="imagediv">
-            <img className={`${hover?"hoverimage":"image"}`} src="https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-005-400x400.jpg" alt="" />
-            <button className="imagebutton">Quick View</button>
-            </div>
+        
+        return(<div className=" detailcard">
+            <img src="https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-product-image-005-400x400.jpg" alt="" />
             <h1>Men's Black Running</h1>
             <p>$79.90</p>
-            <div className="rating">
+            <div>
             <FaRegStar />
             <FaRegStar />
             <FaRegStar />
@@ -51,4 +47,4 @@ return(
 </div>
 )
 };
-export default MenPage;
+export default WomenPage;
