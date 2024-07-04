@@ -7,6 +7,7 @@ import Layout from './pages/Layout/layout'
 import MenPage from './pages/men/menpage'
 import WomenPage from './pages/women/women'
 import Collection from './pages/collection/collection'
+import Signup from './pages/signupAndLogin/signup'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
     <Route path='/women'element={<WomenPage/>}/>
     <Route path='/shop' element={<Collection/>}/>
    </Route>
+   <Route path='/Signup' element={<Signup/>}/>
     </Routes>
     </BrowserRouter>
   )
