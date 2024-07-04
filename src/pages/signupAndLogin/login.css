@@ -1,4 +1,4 @@
-.Sp{
+.Si{
     background-color: lightslategray;
     width: 100vw;
     height:100vh;
@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
 }
-.Spform{
+.Siform{
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -16,24 +16,24 @@
     border-radius: 1em;
     
 }
-.Spform>input{
+.Siform>input{
     border: none;
     background-color: rgb(200, 227, 236);
     outline: none;
     padding: 0.5em;
 }
-.Sppassworddiv>input{
+.Sipassworddiv>input{
     border: none;
     outline:none;
     background-color: rgb(200, 227, 236);
 }
-.Spform>button{
+.Siform>button{
     background-color: rgb(12, 117, 238);
     color: #ffff;
     font-size: large;
     font-weight: 550;
 }
-.Sppassworddiv{
+.Sipassworddiv{
     background-color: rgb(200, 227, 236);
     padding: 0.5em;
 
