@@ -1,0 +1,46 @@
+.ADUs{
+    display: flex;
+    flex-direction: column;
+        padding:0em 1em;
+        gap: 0.5em;
+        background-color: gray;
+        height: 100vh;
+}
+.userdata{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightslategray;
+    border-radius: 1rem;
+    justify-content: space-between;
+    padding: 1em;
+    height: 4rem;
+    background-color: rgb(0, 162, 255);
+
+}
+.userids>img{
+    height: 5rem;
+    border-radius: 50%;
+}
+.userids{
+    display: flex;
+    gap: 0.1rem;
+    align-items: center;
+}
+.userNE{
+    display: flex;
+    flex-direction: column;
+    height: 2rem;
+    margin-top: -4rem;
+}
+
+.userbutton{
+    display: flex;
+    gap: 1rem;
+}
+.userbutton>button{
+    font-size: x-large;
+    border-radius: 0.5rem;
+}
+.userblock{
+    background-color: red;
+}

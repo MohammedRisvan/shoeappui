@@ -8,7 +8,7 @@ const AdminLayout=()=>{
             <div className="ADlsaidbar">
             <AdminSaidbar />
             </div>
-            <div className="ADloutlet">
+            <div className="  ADloutlet">
             <Outlet/>
             </div>
         </div>
