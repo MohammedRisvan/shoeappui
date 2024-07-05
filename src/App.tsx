@@ -9,6 +9,7 @@ import WomenPage from './pages/women/women'
 import Collection from './pages/collection/collection'
 import Signup from './pages/signupAndLogin/signup'
 import Login from './pages/signupAndLogin/login'
+import AdminLayout from './adminPage/Layout/adminlayout'
 
 function App() {
 
@@ -23,6 +24,9 @@ function App() {
    </Route>
    <Route path='/Signup' element={<Signup/>}/>
    <Route path='/login' element={<Login/>}/>
+   <Route path='/admin'element={<AdminLayout/>}>
+    <Route index element={<Collection/>}/>
+   </Route>
     </Routes>
     </BrowserRouter>
   )

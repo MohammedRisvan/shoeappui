@@ -1,0 +1,12 @@
+.ADl{
+    display: flex;
+}
+.ADlsaidbar{
+    flex: 0.1;
+}
+.ADlsaidbar:hover{
+    flex: 0.5;
+}
+.ADloutlet{
+    flex: 4;
+}

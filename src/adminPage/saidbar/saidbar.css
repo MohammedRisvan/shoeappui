@@ -1,0 +1,17 @@
+.AC{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 3rem;
+}
+.AC>button{
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid black;
+}
+.AC>button:hover{
+background-color: lightblue;
+}
